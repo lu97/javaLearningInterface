@@ -1,0 +1,18 @@
+.all{
+    background-image: url("../../resources/bg1.jpg");
+    height: 100vh;
+}
+.block{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+
+}
+.head{
+    text-align: center;
+    background-color: gainsboro;
+}
+.descr{
+    background-color: gainsboro;
+}
