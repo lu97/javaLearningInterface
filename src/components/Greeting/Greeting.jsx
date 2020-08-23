@@ -6,12 +6,7 @@ export class Greeting extends React.Component {
     }
     render() {
         return (
-            <div>
-            </div>
+            <div>Блок с приветствием</div>
         ) ;
-    }
-
-    toGreetings(){
-
     }
 }
