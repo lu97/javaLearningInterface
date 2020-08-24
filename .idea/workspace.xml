@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="359d9d9c-fcad-40bb-823f-603fe900709a" name="Default Changelist" comment="Добавлен интерфейс без страниц">
-      <change afterPath="$PROJECT_DIR$/src/resources/bg1.jpg" afterDir="false" />
+    <list default="true" id="359d9d9c-fcad-40bb-823f-603fe900709a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Greeting/Greeting.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/bgGreet.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Greeting/Greeting.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Greeting/Greeting.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainPage/MainPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/MainPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +81,8 @@
       <workItem from="1597820010766" duration="1456000" />
       <workItem from="1597821494395" duration="554000" />
       <workItem from="1598157492431" duration="13440000" />
+      <workItem from="1598244600340" duration="1508000" />
+      <workItem from="1598246522606" duration="293000" />
     </task>
     <task id="LOCAL-00001" summary="Добавлен интерфейс без страниц">
       <created>1598167532246</created>
@@ -92,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598167532247</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавлен роутинг">
+      <created>1598244663188</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598244663188</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,9 +107,34 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Добавлен интерфейс без страниц" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен интерфейс без страниц" />
+    <MESSAGE value="Добавлен роутинг" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен роутинг" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="200" y="98" key="CommitChangelistDialog2" timestamp="1598244662931">
+      <screen x="0" y="23" width="1680" height="940" />
+    </state>
+    <state x="200" y="98" key="CommitChangelistDialog2/0.23.1680.940@0.23.1680.940" timestamp="1598244662931" />
+    <state width="1175" height="310" key="GridCell.Tab.0.bottom" timestamp="1598245866088">
+      <screen x="0" y="23" width="1680" height="940" />
+    </state>
+    <state width="1175" height="310" key="GridCell.Tab.0.bottom/0.23.1680.940@0.23.1680.940" timestamp="1598245866088" />
+    <state width="1175" height="310" key="GridCell.Tab.0.center" timestamp="1598245866087">
+      <screen x="0" y="23" width="1680" height="940" />
+    </state>
+    <state width="1175" height="310" key="GridCell.Tab.0.center/0.23.1680.940@0.23.1680.940" timestamp="1598245866087" />
+    <state width="1175" height="310" key="GridCell.Tab.0.left" timestamp="1598245866039">
+      <screen x="0" y="23" width="1680" height="940" />
+    </state>
+    <state width="1175" height="310" key="GridCell.Tab.0.left/0.23.1680.940@0.23.1680.940" timestamp="1598245866039" />
+    <state width="1175" height="310" key="GridCell.Tab.0.right" timestamp="1598245866088">
+      <screen x="0" y="23" width="1680" height="940" />
+    </state>
+    <state width="1175" height="310" key="GridCell.Tab.0.right/0.23.1680.940@0.23.1680.940" timestamp="1598245866088" />
+    <state x="208" y="221" key="Vcs.Push.Dialog.v2" timestamp="1598244665301">
+      <screen x="0" y="23" width="1680" height="940" />
+    </state>
+    <state x="208" y="221" key="Vcs.Push.Dialog.v2/0.23.1680.940@0.23.1680.940" timestamp="1598244665301" />
     <state x="181" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1598244603568">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
