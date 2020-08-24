@@ -1,6 +1,5 @@
 .all{
     background-image: url("../../resources/bg1.jpg");
-    height: 100vh;
 }
 .block{
     display: flex;

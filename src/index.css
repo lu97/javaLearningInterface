@@ -2,7 +2,6 @@ body {
   margin: 0;
   font-family: Amatic_SC;
   font-size: 22px;
-  height: 100vh;
 }
 
 code {
@@ -13,7 +12,5 @@ code {
   font-family: 'Amatic_SC';
   font-style: normal;
   font-weight: 700;
-  src: url('resources/Amatic_SC/AmaticSC-Regular.ttf') format('truetype');
-  src: local('Amatic_SC'), local('Amatic_SC'),
-  url('resources/Amatic_SC/AmaticSC-Regular.ttf') format('truetype');
+  src: local('Amatic_SC'), local('Amatic_SC');
 }

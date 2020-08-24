@@ -3,6 +3,7 @@ import {GREETING, mainData} from '../../StaticData';
 import {Block} from "../Block/Block";
 import "./MainPage.css";
 import {Greeting} from "../Greeting/Greeting";
+import {Link} from "react-router-dom";
 export class MainPage extends React.Component {
     constructor() {
         super();
@@ -16,10 +17,9 @@ export class MainPage extends React.Component {
                 <div className="descr">Клацните по карточке с названием паттерна, чтоб ниже появилась
                 реализация данного паттерна и дальнейшие инструкции</div>
                 <div className="block">
-                {mainData.map(data=> <Block onClick={()=>this.getComponent(data.key)} key={data.key} data={data}/>)}
-                </div>
-                <div className="content">
-                    {this.state.currentComponent}
+                {mainData.map(data=>
+                        <Link to={data.key}><Block key={data.key} data={data}/></Link>
+                    )}
                 </div>
             </div>
         ) ;
