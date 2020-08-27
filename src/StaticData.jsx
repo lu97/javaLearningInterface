@@ -1,6 +1,7 @@
 export const GREETING = "GREETING";
 export const FACTORY = "FACTORY";
 export const FACTORY1 = "FACTORY1";
+export const HOST = "http://localhost:8080";
 
 export const mainData =
     [{  id: 1,

@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="359d9d9c-fcad-40bb-823f-603fe900709a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Greeting/Greeting.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/bgGreet.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StaticData.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/StaticData.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Greeting/Greeting.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Greeting/Greeting.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Greeting/Greeting.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Greeting/Greeting.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,11 +28,11 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -63,11 +66,8 @@
       <envs />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="JavaScript Debug.Debug Application" />
-      <item itemvalue="npm.npm start" />
-    </list>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -82,7 +82,10 @@
       <workItem from="1597821494395" duration="554000" />
       <workItem from="1598157492431" duration="13440000" />
       <workItem from="1598244600340" duration="1508000" />
-      <workItem from="1598246522606" duration="293000" />
+      <workItem from="1598246522606" duration="346000" />
+      <workItem from="1598523863123" duration="83000" />
+      <workItem from="1598523961900" duration="790000" />
+      <workItem from="1598526022297" duration="1050000" />
     </task>
     <task id="LOCAL-00001" summary="Добавлен интерфейс без страниц">
       <created>1598167532246</created>
@@ -98,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598244663188</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="добавлена тестовая страница приветствие">
+      <created>1598246834208</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598246834208</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,40 +118,49 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Добавлен интерфейс без страниц" />
     <MESSAGE value="Добавлен роутинг" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен роутинг" />
+    <MESSAGE value="добавлена тестовая страница приветствие" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлена тестовая страница приветствие" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="200" y="98" key="CommitChangelistDialog2" timestamp="1598244662931">
+    <state x="164" y="135" width="1071" height="820" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598525916186">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state x="200" y="98" key="CommitChangelistDialog2/0.23.1680.940@0.23.1680.940" timestamp="1598244662931" />
-    <state width="1175" height="310" key="GridCell.Tab.0.bottom" timestamp="1598245866088">
+    <state x="164" y="135" width="1071" height="820" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.940@0.23.1680.940" timestamp="1598525916186" />
+    <state x="200" y="98" key="CommitChangelistDialog2" timestamp="1598246834029">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state width="1175" height="310" key="GridCell.Tab.0.bottom/0.23.1680.940@0.23.1680.940" timestamp="1598245866088" />
-    <state width="1175" height="310" key="GridCell.Tab.0.center" timestamp="1598245866087">
+    <state x="200" y="98" key="CommitChangelistDialog2/0.23.1680.940@0.23.1680.940" timestamp="1598246834029" />
+    <state width="1175" height="371" key="GridCell.Tab.0.bottom" timestamp="1598527278041">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state width="1175" height="310" key="GridCell.Tab.0.center/0.23.1680.940@0.23.1680.940" timestamp="1598245866087" />
-    <state width="1175" height="310" key="GridCell.Tab.0.left" timestamp="1598245866039">
+    <state width="1175" height="371" key="GridCell.Tab.0.bottom/0.23.1680.940@0.23.1680.940" timestamp="1598527278041" />
+    <state width="1175" height="371" key="GridCell.Tab.0.center" timestamp="1598527278040">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state width="1175" height="310" key="GridCell.Tab.0.left/0.23.1680.940@0.23.1680.940" timestamp="1598245866039" />
-    <state width="1175" height="310" key="GridCell.Tab.0.right" timestamp="1598245866088">
+    <state width="1175" height="371" key="GridCell.Tab.0.center/0.23.1680.940@0.23.1680.940" timestamp="1598527278040" />
+    <state width="1175" height="371" key="GridCell.Tab.0.left" timestamp="1598527278040">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state width="1175" height="310" key="GridCell.Tab.0.right/0.23.1680.940@0.23.1680.940" timestamp="1598245866088" />
-    <state x="208" y="221" key="Vcs.Push.Dialog.v2" timestamp="1598244665301">
+    <state width="1175" height="371" key="GridCell.Tab.0.left/0.23.1680.940@0.23.1680.940" timestamp="1598527278040" />
+    <state width="1175" height="371" key="GridCell.Tab.0.right" timestamp="1598527278041">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state x="208" y="221" key="Vcs.Push.Dialog.v2/0.23.1680.940@0.23.1680.940" timestamp="1598244665301" />
-    <state x="181" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1598244603568">
+    <state width="1175" height="371" key="GridCell.Tab.0.right/0.23.1680.940@0.23.1680.940" timestamp="1598527278041" />
+    <state x="208" y="221" key="Vcs.Push.Dialog.v2" timestamp="1598246848187">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state x="181" y="327" key="com.intellij.ide.util.TipDialog/0.23.1680.940@0.23.1680.940" timestamp="1598244603568" />
+    <state x="208" y="221" key="Vcs.Push.Dialog.v2/0.23.1680.940@0.23.1680.940" timestamp="1598246848187" />
+    <state x="181" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1598523961453">
+      <screen x="0" y="23" width="1680" height="940" />
+    </state>
+    <state x="181" y="327" key="com.intellij.ide.util.TipDialog/0.23.1680.940@0.23.1680.940" timestamp="1598523961453" />
     <state x="300" y="417" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598242877525">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
     <state x="300" y="417" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.940@0.23.1680.940" timestamp="1598242877525" />
+    <state x="94" y="95" key="new project wizard" timestamp="1598525988860">
+      <screen x="0" y="23" width="1680" height="940" />
+    </state>
+    <state x="94" y="95" key="new project wizard/0.23.1680.940@0.23.1680.940" timestamp="1598525988860" />
   </component>
 </project>

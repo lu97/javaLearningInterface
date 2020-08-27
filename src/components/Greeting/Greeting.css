@@ -1,11 +1,9 @@
 .greetingPage{
     background-image: url("../../resources/bgGreet.png");
+    padding: 20px;
 }
-.btnGreeting{
-    border: 1px solid cornflowerblue;
-    border-radius: 5px;
-    background-color: aliceblue;
-    width: 30%;
-    padding: 5px 20px;
-    text-align: center;
+.contentGreeting{
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 20px;
 }
