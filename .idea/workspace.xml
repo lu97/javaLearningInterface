@@ -2,13 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="359d9d9c-fcad-40bb-823f-603fe900709a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/ActionPage/ActionPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ActionPage/ActionPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ActionPage/ActionPage.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ActionPage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Description/Description.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Description/Description.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Description/Description.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Description/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Head/Head.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Head/Head.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Head/Head.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Head/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LeftMenu/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LeftMenuItem/LeftMenuItem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LeftMenuItem/LeftMenuItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LeftMenuItem/LeftMenuItem.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LeftMenuItem/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/leftMenuConstants.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StaticData.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/StaticData.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Greeting/Greeting.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Greeting/Greeting.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Greeting/Greeting.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Greeting/Greeting.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Block/Block.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Block/Block.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Greeting/Greeting.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Greeting/Greeting.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/MainPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/MainPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/MainPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +46,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -46,6 +81,7 @@
     <property name="node.js.selected.package.standard" value="C:\Users\Lu\Desktop\front\javaLearningInterface\node_modules\eslint" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -85,7 +121,9 @@
       <workItem from="1598246522606" duration="346000" />
       <workItem from="1598523863123" duration="83000" />
       <workItem from="1598523961900" duration="790000" />
-      <workItem from="1598526022297" duration="1050000" />
+      <workItem from="1598526022297" duration="1623000" />
+      <workItem from="1598601931353" duration="841000" />
+      <workItem from="1598602847223" duration="981000" />
     </task>
     <task id="LOCAL-00001" summary="Добавлен интерфейс без страниц">
       <created>1598167532246</created>
@@ -108,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598246834208</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="получение тестового реста">
+      <created>1598527296658</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598527296658</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,41 +164,46 @@
     <MESSAGE value="Добавлен интерфейс без страниц" />
     <MESSAGE value="Добавлен роутинг" />
     <MESSAGE value="добавлена тестовая страница приветствие" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлена тестовая страница приветствие" />
+    <MESSAGE value="получение тестового реста" />
+    <option name="LAST_COMMIT_MESSAGE" value="получение тестового реста" />
   </component>
   <component name="WindowStateProjectService">
     <state x="164" y="135" width="1071" height="820" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598525916186">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
     <state x="164" y="135" width="1071" height="820" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.940@0.23.1680.940" timestamp="1598525916186" />
-    <state x="200" y="98" key="CommitChangelistDialog2" timestamp="1598246834029">
+    <state x="413" y="303" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598602423605">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state x="200" y="98" key="CommitChangelistDialog2/0.23.1680.940@0.23.1680.940" timestamp="1598246834029" />
-    <state width="1175" height="371" key="GridCell.Tab.0.bottom" timestamp="1598527278041">
+    <state x="413" y="303" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.940@0.23.1680.940" timestamp="1598602423605" />
+    <state x="200" y="98" key="CommitChangelistDialog2" timestamp="1598527296434">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state width="1175" height="371" key="GridCell.Tab.0.bottom/0.23.1680.940@0.23.1680.940" timestamp="1598527278041" />
-    <state width="1175" height="371" key="GridCell.Tab.0.center" timestamp="1598527278040">
+    <state x="200" y="98" key="CommitChangelistDialog2/0.23.1680.940@0.23.1680.940" timestamp="1598527296434" />
+    <state width="1175" height="371" key="GridCell.Tab.0.bottom" timestamp="1598527757226">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state width="1175" height="371" key="GridCell.Tab.0.center/0.23.1680.940@0.23.1680.940" timestamp="1598527278040" />
-    <state width="1175" height="371" key="GridCell.Tab.0.left" timestamp="1598527278040">
+    <state width="1175" height="371" key="GridCell.Tab.0.bottom/0.23.1680.940@0.23.1680.940" timestamp="1598527757226" />
+    <state width="1175" height="371" key="GridCell.Tab.0.center" timestamp="1598527757225">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state width="1175" height="371" key="GridCell.Tab.0.left/0.23.1680.940@0.23.1680.940" timestamp="1598527278040" />
-    <state width="1175" height="371" key="GridCell.Tab.0.right" timestamp="1598527278041">
+    <state width="1175" height="371" key="GridCell.Tab.0.center/0.23.1680.940@0.23.1680.940" timestamp="1598527757225" />
+    <state width="1175" height="371" key="GridCell.Tab.0.left" timestamp="1598527757225">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state width="1175" height="371" key="GridCell.Tab.0.right/0.23.1680.940@0.23.1680.940" timestamp="1598527278041" />
-    <state x="208" y="221" key="Vcs.Push.Dialog.v2" timestamp="1598246848187">
+    <state width="1175" height="371" key="GridCell.Tab.0.left/0.23.1680.940@0.23.1680.940" timestamp="1598527757225" />
+    <state width="1175" height="371" key="GridCell.Tab.0.right" timestamp="1598527757226">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state x="208" y="221" key="Vcs.Push.Dialog.v2/0.23.1680.940@0.23.1680.940" timestamp="1598246848187" />
-    <state x="181" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1598523961453">
+    <state width="1175" height="371" key="GridCell.Tab.0.right/0.23.1680.940@0.23.1680.940" timestamp="1598527757226" />
+    <state x="208" y="221" key="Vcs.Push.Dialog.v2" timestamp="1598527298204">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state x="181" y="327" key="com.intellij.ide.util.TipDialog/0.23.1680.940@0.23.1680.940" timestamp="1598523961453" />
+    <state x="208" y="221" key="Vcs.Push.Dialog.v2/0.23.1680.940@0.23.1680.940" timestamp="1598527298204" />
+    <state x="181" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1598602846166">
+      <screen x="0" y="23" width="1680" height="940" />
+    </state>
+    <state x="181" y="327" key="com.intellij.ide.util.TipDialog/0.23.1680.940@0.23.1680.940" timestamp="1598602846166" />
     <state x="300" y="417" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598242877525">
       <screen x="0" y="23" width="1680" height="940" />
     </state>

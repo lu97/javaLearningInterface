@@ -1,9 +1,0 @@
-.greetingPage{
-    background-image: url("../../resources/bgGreet.png");
-    padding: 20px;
-}
-.contentGreeting{
-    border: 1px solid grey;
-    padding: 10px;
-    margin: 20px;
-}
