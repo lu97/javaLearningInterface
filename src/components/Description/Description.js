@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-
+import "./Description.css";
 class Description extends Component {
   render() {
-    return <div>Description</div>;
+    return <div className="description">Description</div>;
   }
 }
 
