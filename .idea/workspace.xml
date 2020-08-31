@@ -2,30 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="359d9d9c-fcad-40bb-823f-603fe900709a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/actions/DataStoreActions.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/reducerConstants.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/DataReducer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/reducers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ActionPage/ActionPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ActionPage/ActionPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ActionPage/ActionPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ActionPage/ActionPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Description/Description.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Description/Description.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Description/Description.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Description/Description.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Head/Head.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Head/Head.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Head/Head.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Head/Head.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LeftMenuItem/LeftMenuItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftMenuItem/LeftMenuItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/DataStoreActions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/DataStoreActions.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LeftMenuItem/LeftMenuItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftMenuItem/LeftMenuItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainPage/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/MainPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainPage/MainPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/MainPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/leftMenuConstants.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/leftMenuConstants.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/DataReducer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/DataReducer.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +100,8 @@
       <workItem from="1598855251648" duration="888000" />
       <workItem from="1598857064116" duration="1688000" />
       <workItem from="1598858887938" duration="1795000" />
-      <workItem from="1598860704673" duration="1043000" />
+      <workItem from="1598860704673" duration="1792000" />
+      <workItem from="1598862527244" duration="1035000" />
     </task>
     <task id="LOCAL-00001" summary="Добавлен интерфейс без страниц">
       <created>1598167532246</created>
@@ -157,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598604368013</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="new interface">
+      <created>1598861894847</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598861894847</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +158,8 @@
     <MESSAGE value="добавлена тестовая страница приветствие" />
     <MESSAGE value="получение тестового реста" />
     <MESSAGE value="add empty components" />
-    <option name="LAST_COMMIT_MESSAGE" value="add empty components" />
+    <MESSAGE value="new interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="new interface" />
   </component>
   <component name="WindowStateProjectService">
     <state x="164" y="135" width="1071" height="820" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598525916186">
@@ -181,10 +170,10 @@
       <screen x="0" y="23" width="1680" height="940" />
     </state>
     <state x="413" y="303" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.940@0.23.1680.940" timestamp="1598602423605" />
-    <state x="200" y="98" key="CommitChangelistDialog2" timestamp="1598604367763">
+    <state x="200" y="98" key="CommitChangelistDialog2" timestamp="1598861894623">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state x="200" y="98" key="CommitChangelistDialog2/0.23.1680.940@0.23.1680.940" timestamp="1598604367763" />
+    <state x="200" y="98" key="CommitChangelistDialog2/0.23.1680.940@0.23.1680.940" timestamp="1598861894622" />
     <state width="1349" height="371" key="GridCell.Tab.0.bottom" timestamp="1598859509922">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
@@ -201,14 +190,14 @@
       <screen x="0" y="23" width="1680" height="940" />
     </state>
     <state width="1349" height="371" key="GridCell.Tab.0.right/0.23.1680.940@0.23.1680.940" timestamp="1598859509921" />
-    <state x="208" y="221" key="Vcs.Push.Dialog.v2" timestamp="1598604385244">
+    <state x="208" y="221" key="Vcs.Push.Dialog.v2" timestamp="1598861898084">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state x="208" y="221" key="Vcs.Push.Dialog.v2/0.23.1680.940@0.23.1680.940" timestamp="1598604385244" />
-    <state x="181" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1598860704701">
+    <state x="208" y="221" key="Vcs.Push.Dialog.v2/0.23.1680.940@0.23.1680.940" timestamp="1598861898084" />
+    <state x="181" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1598862526959">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state x="181" y="327" key="com.intellij.ide.util.TipDialog/0.23.1680.940@0.23.1680.940" timestamp="1598860704701" />
+    <state x="181" y="327" key="com.intellij.ide.util.TipDialog/0.23.1680.940@0.23.1680.940" timestamp="1598862526959" />
     <state x="300" y="417" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598242877525">
       <screen x="0" y="23" width="1680" height="940" />
     </state>

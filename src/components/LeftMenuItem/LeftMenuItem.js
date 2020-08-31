@@ -8,15 +8,24 @@ import {setCurrentItemCode} from "../../actions/DataStoreActions";
 class LeftMenuItem extends Component {
   constructor(props) {
     super(props);
+    this.setCode = this.setCode.bind(this);
   }
   render() {
+    console.log(this.props);
     let className = "leftMenuItemHovering";
-    let { currentItemCode, code} = this.props;
+    const { currentItemCode, code, setCurrentItemCode} = this.props;
     let logo="../../resources/logo.png";
     let title = LEFT_MENU.get(this.props.code).title;
     if(code === MAIN_PAGE) title=(<img src={logo}/>);
     if(code === currentItemCode) className += " selected";
-    return <div className={className}>{title}</div>;
+    return <div className={className} onClick={this.setCode}>{title}</div>;
+  }
+
+  setCode(){
+    const { setCurrentItemCode, code } = this.props;
+    console.log(setCurrentItemCode, code );
+    setCurrentItemCode(code);
+    console.log(this.props);
   }
 }
 const mapStateToProps = state =>{
