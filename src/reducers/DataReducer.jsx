@@ -5,7 +5,6 @@ const initialState = {
     currentItemCode: TEST_REST
 };
 const dataStore = (state = initialState, action) =>{
-    console.log(action);
     switch (action.type) {
         case SET_CURRENT_ITEM_CODE:
             return {

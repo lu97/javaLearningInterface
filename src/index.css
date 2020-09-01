@@ -1,4 +1,9 @@
+*{
+  padding: 2px 5px;
+}
+
 body {
+  padding: 0!important;
   margin: 0;
   font-family: Amatic_SC;
 }

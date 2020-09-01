@@ -1,14 +1,20 @@
 import React, { Component } from 'react';
 import Description from "../Description";
 import "./ActionPage.css"
+import {connect} from "react-redux";
+import {LEFT_MENU} from "../../constants/leftMenuConstants";
 
 class ActionPage extends Component {
   render() {
+    const {currentItemCode} = this.props;
     return <div className="actionPage">
-      ActionPage
       <Description />
+      {LEFT_MENU.get(currentItemCode).actionPage}
     </div>;
   }
 }
-
-export default ActionPage;
+const mapStateToProps = state =>{
+  const currentItemCode = state.dataStore.currentItemCode;
+  return {currentItemCode};
+};
+export default connect(mapStateToProps)(ActionPage);

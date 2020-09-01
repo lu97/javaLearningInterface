@@ -1,5 +1,7 @@
 .description{
     border: 1px solid cyan;
     width: 35%;
-    float: right;
+    position: absolute;
+    right: 10px;
+    z-index: 1;
 }

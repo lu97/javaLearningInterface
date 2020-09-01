@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+
+import {connect} from "react-redux";
+import {bindActionCreators} from "redux";
+
+import {LEFT_MENU, MAIN_PAGE} from "../../constants/leftMenuConstants";
+import {setCurrentItemCode} from "../../actions/DataStoreActions";
+
 import "./LeftMenuItem.css";
 import "../../index.css";
-import {LEFT_MENU, MAIN_PAGE} from "../../constants/leftMenuConstants";
-import {connect} from "react-redux";
-import {setCurrentItemCode} from "../../actions/DataStoreActions";
 
 class LeftMenuItem extends Component {
   constructor(props) {
@@ -11,7 +15,6 @@ class LeftMenuItem extends Component {
     this.setCode = this.setCode.bind(this);
   }
   render() {
-    console.log(this.props);
     let className = "leftMenuItemHovering";
     const { currentItemCode, code, setCurrentItemCode} = this.props;
     let logo="../../resources/logo.png";
@@ -23,9 +26,7 @@ class LeftMenuItem extends Component {
 
   setCode(){
     const { setCurrentItemCode, code } = this.props;
-    console.log(setCurrentItemCode, code );
     setCurrentItemCode(code);
-    console.log(this.props);
   }
 }
 const mapStateToProps = state =>{
@@ -33,6 +34,8 @@ const mapStateToProps = state =>{
   return {currentItemCode};
 };
 const mapDispatchToProps = dispatch =>({
-  setCurrentItemCode
+  ...bindActionCreators({
+    setCurrentItemCode
+  }, dispatch)
 });
 export default connect(mapStateToProps, mapDispatchToProps)(LeftMenuItem);

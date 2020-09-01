@@ -1,6 +1,7 @@
 .mainPage{
     border: 1px solid forestgreen;
     display: flex;
+    height: 90vh;
 }
 .rightPart{
     width: 70%;
