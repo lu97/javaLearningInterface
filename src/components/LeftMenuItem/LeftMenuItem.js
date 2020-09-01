@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import {connect} from "react-redux";
 import {bindActionCreators} from "redux";
 
-import {LEFT_MENU, MAIN_PAGE} from "../../constants/leftMenuConstants";
+import {getItem, LEFT_MENU, MAIN_PAGE} from "../../constants/leftMenuConstants";
 import {setCurrentItemCode} from "../../actions/DataStoreActions";
 
 import "./LeftMenuItem.css";
@@ -18,7 +18,7 @@ class LeftMenuItem extends Component {
     let className = "leftMenuItemHovering";
     const { currentItemCode, code, setCurrentItemCode} = this.props;
     let logo="../../resources/logo.png";
-    let title = LEFT_MENU.get(this.props.code).title;
+    let title = getItem(this.props.code).title;
     if(code === MAIN_PAGE) title=(<img src={logo}/>);
     if(code === currentItemCode) className += " selected";
     return <div className={className} onClick={this.setCode}>{title}</div>;

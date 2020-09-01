@@ -2,26 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="359d9d9c-fcad-40bb-823f-603fe900709a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/actionPages/SiteParse/SiteParse.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/actionPages/SiteParse/SiteParse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/actionPages/SiteParse/SiteParse.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/actionPages/SiteParse/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/actionPages/TestRest/TestRest.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/actionPages/TestRest/TestRest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/actionPages/TestRest/TestRest.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/actionPages/TestRest/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/ActionPageActions.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/ActionPagesReducer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rests/appRests.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/DataStoreActions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/DataStoreActions.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ActionPage/ActionPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ActionPage/ActionPage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ActionPage/ActionPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ActionPage/ActionPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Description/Description.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Description/Description.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Description/Description.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Description/Description.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Head/Head.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Head/Head.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LeftMenuItem/LeftMenuItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftMenuItem/LeftMenuItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainPage/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/MainPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/actionPages/TestRest/TestRest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/actionPages/TestRest/TestRest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/constants/leftMenuConstants.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/leftMenuConstants.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/reducerConstants.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/reducerConstants.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/DataReducer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/DataReducer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/reducers.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +115,8 @@
       <workItem from="1598951454960" duration="1338000" />
       <workItem from="1598953137694" duration="1712000" />
       <workItem from="1598954959486" duration="1750000" />
+      <workItem from="1598956772569" duration="1768000" />
+      <workItem from="1598958582639" duration="1339000" />
     </task>
     <task id="LOCAL-00001" summary="Добавлен интерфейс без страниц">
       <created>1598167532246</created>
@@ -171,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598863783577</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="all working">
+      <created>1598956794634</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598956794634</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +189,8 @@
     <MESSAGE value="add empty components" />
     <MESSAGE value="new interface" />
     <MESSAGE value="redux dispatch not working" />
-    <option name="LAST_COMMIT_MESSAGE" value="redux dispatch not working" />
+    <MESSAGE value="all working" />
+    <option name="LAST_COMMIT_MESSAGE" value="all working" />
   </component>
   <component name="WindowStateProjectService">
     <state x="164" y="135" width="1071" height="820" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598525916186">
@@ -197,10 +201,10 @@
       <screen x="0" y="23" width="1680" height="940" />
     </state>
     <state x="413" y="303" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.940@0.23.1680.940" timestamp="1598602423605" />
-    <state x="200" y="98" key="CommitChangelistDialog2" timestamp="1598863783424">
+    <state x="200" y="98" key="CommitChangelistDialog2" timestamp="1598956794339">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state x="200" y="98" key="CommitChangelistDialog2/0.23.1680.940@0.23.1680.940" timestamp="1598863783424" />
+    <state x="200" y="98" key="CommitChangelistDialog2/0.23.1680.940@0.23.1680.940" timestamp="1598956794339" />
     <state width="1248" height="478" key="GridCell.Tab.0.bottom" timestamp="1598955270476">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
@@ -217,22 +221,22 @@
       <screen x="0" y="23" width="1680" height="940" />
     </state>
     <state width="1248" height="478" key="GridCell.Tab.0.right/0.23.1680.940@0.23.1680.940" timestamp="1598955270475" />
-    <state x="208" y="221" key="Vcs.Push.Dialog.v2" timestamp="1598863785171">
+    <state x="208" y="221" key="Vcs.Push.Dialog.v2" timestamp="1598956796468">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state x="208" y="221" key="Vcs.Push.Dialog.v2/0.23.1680.940@0.23.1680.940" timestamp="1598863785171" />
-    <state x="181" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1598956772051">
+    <state x="208" y="221" key="Vcs.Push.Dialog.v2/0.23.1680.940@0.23.1680.940" timestamp="1598956796468" />
+    <state x="181" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1598958582623">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state x="181" y="327" key="com.intellij.ide.util.TipDialog/0.23.1680.940@0.23.1680.940" timestamp="1598956772051" />
+    <state x="181" y="327" key="com.intellij.ide.util.TipDialog/0.23.1680.940@0.23.1680.940" timestamp="1598958582623" />
     <state x="300" y="417" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598242877525">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
     <state x="300" y="417" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.940@0.23.1680.940" timestamp="1598242877525" />
-    <state x="359" y="257" width="673" height="472" key="find.popup" timestamp="1598857646891">
+    <state x="359" y="132" width="673" height="597" key="find.popup" timestamp="1598959457086">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state x="359" y="257" width="673" height="472" key="find.popup/0.23.1680.940@0.23.1680.940" timestamp="1598857646891" />
+    <state x="359" y="132" width="673" height="597" key="find.popup/0.23.1680.940@0.23.1680.940" timestamp="1598959457086" />
     <state x="94" y="95" key="new project wizard" timestamp="1598525988860">
       <screen x="0" y="23" width="1680" height="940" />
     </state>

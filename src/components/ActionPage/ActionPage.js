@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import Description from "../Description";
 import "./ActionPage.css"
 import {connect} from "react-redux";
-import {LEFT_MENU} from "../../constants/leftMenuConstants";
+import {getItem, LEFT_MENU} from "../../constants/leftMenuConstants";
 
 class ActionPage extends Component {
   render() {
     const {currentItemCode} = this.props;
     return <div className="actionPage">
       <Description />
-      {LEFT_MENU.get(currentItemCode).actionPage}
+      {getItem(currentItemCode).actionPage}
     </div>;
   }
 }

@@ -1,9 +1,8 @@
 *{
-  padding: 2px 5px;
+  padding: 5px;
 }
 
 body {
-  padding: 0!important;
   margin: 0;
   font-family: Amatic_SC;
 }
@@ -18,7 +17,7 @@ code {
   font-weight: 700;
   src: local('Amatic_SC'), local('Amatic_SC');
 }
-*[class^="btn"] {
+*[class$="Btn"] {
   border: 1px solid cornflowerblue;
   border-radius: 5px;
   background-color: aliceblue;
@@ -26,7 +25,6 @@ code {
   padding: 5px 20px;
   text-align: center;
   cursor: pointer;
-  margin: auto;
 }
 
 *[class$="Hovering"]:hover{
