@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="359d9d9c-fcad-40bb-823f-603fe900709a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/constants/AppConstants.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/ActionPageActions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/ActionPageActions.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/actionPages/SiteParse/SiteParse.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/actionPages/SiteParse/SiteParse.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/actionPages/SiteParse/SiteParse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/actionPages/SiteParse/SiteParse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/reducerConstants.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/reducerConstants.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/ActionPagesReducer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/ActionPagesReducer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rests/appRests.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/rests/appRests.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,6 +111,7 @@
       <workItem from="1599130054068" duration="1461000" />
       <workItem from="1599131855782" duration="1614000" />
       <workItem from="1599133684939" duration="1793000" />
+      <workItem from="1599135497807" duration="1173000" />
     </task>
     <task id="LOCAL-00001" summary="Добавлен интерфейс без страниц">
       <created>1598167532246</created>
@@ -187,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598961869484</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="request for parse">
+      <created>1599135530376</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599135530376</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +208,8 @@
     <MESSAGE value="all working" />
     <MESSAGE value="get request" />
     <MESSAGE value="готовая страница для парсинга без стилей и парсинга" />
-    <option name="LAST_COMMIT_MESSAGE" value="готовая страница для парсинга без стилей и парсинга" />
+    <MESSAGE value="request for parse" />
+    <option name="LAST_COMMIT_MESSAGE" value="request for parse" />
   </component>
   <component name="WindowStateProjectService">
     <state x="164" y="135" width="1071" height="820" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598525916186">
@@ -216,10 +220,10 @@
       <screen x="0" y="23" width="1680" height="940" />
     </state>
     <state x="413" y="303" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.940@0.23.1680.940" timestamp="1598602423605" />
-    <state x="200" y="98" key="CommitChangelistDialog2" timestamp="1598961869315">
+    <state x="200" y="98" key="CommitChangelistDialog2" timestamp="1599135530215">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state x="200" y="98" key="CommitChangelistDialog2/0.23.1680.940@0.23.1680.940" timestamp="1598961869315" />
+    <state x="200" y="98" key="CommitChangelistDialog2/0.23.1680.940@0.23.1680.940" timestamp="1599135530215" />
     <state width="1248" height="156" key="GridCell.Tab.0.bottom" timestamp="1599133108793">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
@@ -236,10 +240,10 @@
       <screen x="0" y="23" width="1680" height="940" />
     </state>
     <state width="1248" height="156" key="GridCell.Tab.0.right/0.23.1680.940@0.23.1680.940" timestamp="1599133108792" />
-    <state x="208" y="221" key="Vcs.Push.Dialog.v2" timestamp="1598961871404">
+    <state x="208" y="221" key="Vcs.Push.Dialog.v2" timestamp="1599135532551">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state x="208" y="221" key="Vcs.Push.Dialog.v2/0.23.1680.940@0.23.1680.940" timestamp="1598961871404" />
+    <state x="208" y="221" key="Vcs.Push.Dialog.v2/0.23.1680.940@0.23.1680.940" timestamp="1599135532551" />
     <state x="181" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1599135497557">
       <screen x="0" y="23" width="1680" height="940" />
     </state>

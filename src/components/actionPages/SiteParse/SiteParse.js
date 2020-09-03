@@ -62,7 +62,7 @@ class SiteParse extends Component {
   getParseData(){
     const { currentItemCode,  setParseData} = this.props;
     if(this.validateData){
-      getRestDataWithParams(getItem(currentItemCode), setParseData, this.state);
+      getRestDataWithParams(getItem(currentItemCode).path, setParseData, this.state);
     }
   }
 
@@ -141,7 +141,8 @@ class SiteParse extends Component {
   }
 }
 const mapStateToProps = state =>{
-  const { currentItemCode, parseSite} = state.actionPagesStore;
+  const { currentItemCode } = state.dataStore;
+  const { parseSite} = state.actionPagesStore;
   return {currentItemCode, parseSite};
 };
 const mapDispatchToProps = dispatch =>({
