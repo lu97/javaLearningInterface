@@ -5,3 +5,13 @@ table{
 tr, td{
     border: 1px solid red;
 }
+input:not[type="radiobutton"]{
+    width: 250px;
+}
+select{
+    width: 250px;
+}
+.range{
+    width: 100px;
+}
+

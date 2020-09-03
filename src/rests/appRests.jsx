@@ -6,3 +6,8 @@ export const defaultRestGetData = (path, storeSet)=>{
         storeSet(response.data);
     });
 }
+export const getRestDataWithParams = (path, storeSet, params) =>{
+    axios.get(`${BACKEND_PATH}${path}`, params).then(response=>{
+        storeSet(response.data);
+    });
+}

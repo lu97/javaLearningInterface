@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="359d9d9c-fcad-40bb-823f-603fe900709a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/constants/AppConstants.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/ActionPageActions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/ActionPageActions.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/actionPages/SiteParse/SiteParse.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/actionPages/SiteParse/SiteParse.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/actionPages/SiteParse/SiteParse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/actionPages/SiteParse/SiteParse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/reducerConstants.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/reducerConstants.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/ActionPagesReducer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/ActionPagesReducer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rests/appRests.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/rests/appRests.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +52,7 @@
     <property name="node.js.selected.package.standard" value="C:\Users\Lu\Desktop\front\javaLearningInterface\node_modules\eslint" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -106,7 +112,10 @@
       <workItem from="1598954959486" duration="1750000" />
       <workItem from="1598956772569" duration="1768000" />
       <workItem from="1598958582639" duration="1507000" />
-      <workItem from="1598960401432" duration="1157000" />
+      <workItem from="1598960401432" duration="1339000" />
+      <workItem from="1599130054068" duration="1461000" />
+      <workItem from="1599131855782" duration="1614000" />
+      <workItem from="1599133684939" duration="1793000" />
     </task>
     <task id="LOCAL-00001" summary="Добавлен интерфейс без страниц">
       <created>1598167532246</created>
@@ -171,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598960281672</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="готовая страница для парсинга без стилей и парсинга">
+      <created>1598961869484</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1598961869484</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +204,8 @@
     <MESSAGE value="redux dispatch not working" />
     <MESSAGE value="all working" />
     <MESSAGE value="get request" />
-    <option name="LAST_COMMIT_MESSAGE" value="get request" />
+    <MESSAGE value="готовая страница для парсинга без стилей и парсинга" />
+    <option name="LAST_COMMIT_MESSAGE" value="готовая страница для парсинга без стилей и парсинга" />
   </component>
   <component name="WindowStateProjectService">
     <state x="164" y="135" width="1071" height="820" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598525916186">
@@ -199,34 +216,34 @@
       <screen x="0" y="23" width="1680" height="940" />
     </state>
     <state x="413" y="303" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.940@0.23.1680.940" timestamp="1598602423605" />
-    <state x="200" y="98" key="CommitChangelistDialog2" timestamp="1598960281409">
+    <state x="200" y="98" key="CommitChangelistDialog2" timestamp="1598961869315">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state x="200" y="98" key="CommitChangelistDialog2/0.23.1680.940@0.23.1680.940" timestamp="1598960281409" />
-    <state width="1248" height="478" key="GridCell.Tab.0.bottom" timestamp="1598955270476">
+    <state x="200" y="98" key="CommitChangelistDialog2/0.23.1680.940@0.23.1680.940" timestamp="1598961869315" />
+    <state width="1248" height="156" key="GridCell.Tab.0.bottom" timestamp="1599133108793">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state width="1248" height="478" key="GridCell.Tab.0.bottom/0.23.1680.940@0.23.1680.940" timestamp="1598955270476" />
-    <state width="1248" height="478" key="GridCell.Tab.0.center" timestamp="1598955270474">
+    <state width="1248" height="156" key="GridCell.Tab.0.bottom/0.23.1680.940@0.23.1680.940" timestamp="1599133108793" />
+    <state width="1248" height="156" key="GridCell.Tab.0.center" timestamp="1599133108792">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state width="1248" height="478" key="GridCell.Tab.0.center/0.23.1680.940@0.23.1680.940" timestamp="1598955270474" />
-    <state width="1248" height="478" key="GridCell.Tab.0.left" timestamp="1598955270474">
+    <state width="1248" height="156" key="GridCell.Tab.0.center/0.23.1680.940@0.23.1680.940" timestamp="1599133108792" />
+    <state width="1248" height="156" key="GridCell.Tab.0.left" timestamp="1599133108791">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state width="1248" height="478" key="GridCell.Tab.0.left/0.23.1680.940@0.23.1680.940" timestamp="1598955270474" />
-    <state width="1248" height="478" key="GridCell.Tab.0.right" timestamp="1598955270475">
+    <state width="1248" height="156" key="GridCell.Tab.0.left/0.23.1680.940@0.23.1680.940" timestamp="1599133108791" />
+    <state width="1248" height="156" key="GridCell.Tab.0.right" timestamp="1599133108792">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state width="1248" height="478" key="GridCell.Tab.0.right/0.23.1680.940@0.23.1680.940" timestamp="1598955270475" />
-    <state x="208" y="221" key="Vcs.Push.Dialog.v2" timestamp="1598960283603">
+    <state width="1248" height="156" key="GridCell.Tab.0.right/0.23.1680.940@0.23.1680.940" timestamp="1599133108792" />
+    <state x="208" y="221" key="Vcs.Push.Dialog.v2" timestamp="1598961871404">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state x="208" y="221" key="Vcs.Push.Dialog.v2/0.23.1680.940@0.23.1680.940" timestamp="1598960283603" />
-    <state x="181" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1598960405306">
+    <state x="208" y="221" key="Vcs.Push.Dialog.v2/0.23.1680.940@0.23.1680.940" timestamp="1598961871404" />
+    <state x="181" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1599135497557">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state x="181" y="327" key="com.intellij.ide.util.TipDialog/0.23.1680.940@0.23.1680.940" timestamp="1598960405306" />
+    <state x="181" y="327" key="com.intellij.ide.util.TipDialog/0.23.1680.940@0.23.1680.940" timestamp="1599135497557" />
     <state x="300" y="417" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598242877525">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
