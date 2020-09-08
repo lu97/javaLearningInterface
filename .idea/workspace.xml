@@ -111,7 +111,12 @@
       <workItem from="1599131855782" duration="1614000" />
       <workItem from="1599133684939" duration="1793000" />
       <workItem from="1599135497807" duration="1173000" />
-      <workItem from="1599137337389" duration="609000" />
+      <workItem from="1599137337389" duration="918000" />
+      <workItem from="1599196929739" duration="154000" />
+      <workItem from="1599482113035" duration="628000" />
+      <workItem from="1599560112623" duration="601000" />
+      <workItem from="1599561702152" duration="1477000" />
+      <workItem from="1599563515632" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="Добавлен интерфейс без страниц">
       <created>1598167532246</created>
@@ -197,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599137362931</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fixed request parameters">
+      <created>1599138156353</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1599138156353</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +229,8 @@
     <MESSAGE value="готовая страница для парсинга без стилей и парсинга" />
     <MESSAGE value="request for parse" />
     <MESSAGE value="fixed parsing path" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed parsing path" />
+    <MESSAGE value="fixed request parameters" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed request parameters" />
   </component>
   <component name="WindowStateProjectService">
     <state x="164" y="135" width="1071" height="820" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598525916186">
@@ -228,34 +241,34 @@
       <screen x="0" y="23" width="1680" height="940" />
     </state>
     <state x="413" y="303" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.940@0.23.1680.940" timestamp="1598602423605" />
-    <state x="200" y="98" key="CommitChangelistDialog2" timestamp="1599137362542">
+    <state x="200" y="98" key="CommitChangelistDialog2" timestamp="1599138156233">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state x="200" y="98" key="CommitChangelistDialog2/0.23.1680.940@0.23.1680.940" timestamp="1599137362542" />
-    <state width="1248" height="156" key="GridCell.Tab.0.bottom" timestamp="1599133108793">
+    <state x="200" y="98" key="CommitChangelistDialog2/0.23.1680.940@0.23.1680.940" timestamp="1599138156233" />
+    <state width="1248" height="479" key="GridCell.Tab.0.bottom" timestamp="1599563564426">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state width="1248" height="156" key="GridCell.Tab.0.bottom/0.23.1680.940@0.23.1680.940" timestamp="1599133108793" />
-    <state width="1248" height="156" key="GridCell.Tab.0.center" timestamp="1599133108792">
+    <state width="1248" height="479" key="GridCell.Tab.0.bottom/0.23.1680.940@0.23.1680.940" timestamp="1599563564426" />
+    <state width="1248" height="479" key="GridCell.Tab.0.center" timestamp="1599563564425">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state width="1248" height="156" key="GridCell.Tab.0.center/0.23.1680.940@0.23.1680.940" timestamp="1599133108792" />
-    <state width="1248" height="156" key="GridCell.Tab.0.left" timestamp="1599133108791">
+    <state width="1248" height="479" key="GridCell.Tab.0.center/0.23.1680.940@0.23.1680.940" timestamp="1599563564425" />
+    <state width="1248" height="479" key="GridCell.Tab.0.left" timestamp="1599563564424">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state width="1248" height="156" key="GridCell.Tab.0.left/0.23.1680.940@0.23.1680.940" timestamp="1599133108791" />
-    <state width="1248" height="156" key="GridCell.Tab.0.right" timestamp="1599133108792">
+    <state width="1248" height="479" key="GridCell.Tab.0.left/0.23.1680.940@0.23.1680.940" timestamp="1599563564424" />
+    <state width="1248" height="479" key="GridCell.Tab.0.right" timestamp="1599563564425">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state width="1248" height="156" key="GridCell.Tab.0.right/0.23.1680.940@0.23.1680.940" timestamp="1599133108792" />
-    <state x="208" y="221" key="Vcs.Push.Dialog.v2" timestamp="1599137366241">
+    <state width="1248" height="479" key="GridCell.Tab.0.right/0.23.1680.940@0.23.1680.940" timestamp="1599563564425" />
+    <state x="208" y="221" key="Vcs.Push.Dialog.v2" timestamp="1599138157664">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state x="208" y="221" key="Vcs.Push.Dialog.v2/0.23.1680.940@0.23.1680.940" timestamp="1599137366241" />
-    <state x="181" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1599135497557">
+    <state x="208" y="221" key="Vcs.Push.Dialog.v2/0.23.1680.940@0.23.1680.940" timestamp="1599138157664" />
+    <state x="181" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1599562144460">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state x="181" y="327" key="com.intellij.ide.util.TipDialog/0.23.1680.940@0.23.1680.940" timestamp="1599135497557" />
+    <state x="181" y="327" key="com.intellij.ide.util.TipDialog/0.23.1680.940@0.23.1680.940" timestamp="1599562144460" />
     <state x="300" y="417" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598242877525">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
